@@ -7,6 +7,7 @@
 # Parham Khosh Solat
 
 **Data Scientist · ML Engineer** · Naples, Italy
+<br><sub>Legal name: Seyyed Alireza Khoshsolat (on degree certificates)</sub>
 
 Three years as the data person at Sakoudar, an influencer marketing platform, and an MSc in Data Science at the University of Naples Federico II, graduating in February 2027 (expected). I build tools that help non-technical people make decisions with data.
 
