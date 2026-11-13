@@ -8,7 +8,7 @@
 
 **Data Scientist · ML Engineer** · Naples, Italy
 
-Three years as the data person at Sakoudar, an influencer marketing platform, and an MSc in Data Science at the University of Naples Federico II, graduating December 2026. I build tools that help non-technical people make decisions with data.
+Three years as the data person at Sakoudar, an influencer marketing platform, and an MSc in Data Science at the University of Naples Federico II, graduating in February 2027 (expected). I build tools that help non-technical people make decisions with data.
 
 ---
 
@@ -52,7 +52,7 @@ Influencer campaign platform across Instagram, LinkedIn and X. I joined in the c
 
 ## Credentials
 
-- **MSc Data Science** · Federico II · September 2023 to December 2026 · weighted average 28.67/30, four exams at 30 e lode
+- **MSc Data Science** · Federico II · September 2023 to February 2027 (expected) · weighted average 28.67/30, four exams at 30 e lode
 - **5G Academy** · Federico II with Nokia, TIM and PagoPA · June to November 2026
 - **Apple Foundation Program** · Federico II × Apple Developer Academy · January 2025
 - **BSc Information Technology Engineering** · Amol University
