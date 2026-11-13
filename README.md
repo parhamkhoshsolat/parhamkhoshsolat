@@ -1,68 +1,68 @@
+<p>
+  <a href="https://www.parhamkhoshsolat.com"><img src="https://img.shields.io/badge/Portfolio-parhamkhoshsolat.com-5dc6ff?style=flat-square&labelColor=0a1422" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/parham-khoshsolat"><img src="https://img.shields.io/badge/LinkedIn-parham--khoshsolat-5dc6ff?style=flat-square&labelColor=0a1422" alt="LinkedIn"></a>
+  <a href="https://huggingface.co/parhamkhoshsolat"><img src="https://img.shields.io/badge/Hugging_Face-live_demos-5dc6ff?style=flat-square&labelColor=0a1422" alt="Hugging Face"></a>
+</p>
+
 # Parham Khosh Solat
 
-**Data Scientist · ML Engineer**
-Three years building the data and recommendation layer of a live influencer marketing platform.
-MSc Data Science · University of Naples Federico II · Graduating October 2026
+**Data Scientist · ML Engineer** · Naples, Italy
 
-[Portfolio](https://parhamkhoshsolat.com) · [LinkedIn](https://www.linkedin.com/in/parham-khoshsolat) · [HuggingFace](https://huggingface.co/parhamkhoshsolat) · parhamkhoshsolat@gmail.com
-
----
-
-## What I do
-
-I ship machine learning end to end. For three years that meant production work at Sakoudar, an influencer marketing platform, where I built the ingestion, the scoring and the recommendation layer for a product that is still running. Alongside it, several projects are live as interactive demos on HuggingFace Spaces. My MSc thesis is on transparency in human-robot reinforcement learning.
+Three years as the data person at Sakoudar, an influencer marketing platform, and an MSc in Data Science at the University of Naples Federico II, graduating December 2026. I build tools that help non-technical people make decisions with data.
 
 ---
 
 ## Experience
 
 **Data Scientist · Sakoudar · 2022 to 2025 · full time**
-Influencer campaign management platform across LinkedIn, X and Instagram. Joined in the company's first year.
+Influencer campaign platform across Instagram, LinkedIn and X. I joined in the company's first year as one of two technical people.
 
-- Built the weekly ingestion across the LinkedIn, X and Instagram APIs, turning one-off snapshots into a per-influencer time series.
-- Designed the scoring that made influencers comparable, weighting impressions so a daily poster did not simply outrank a weekly one, and so categories with very different audience sizes could be judged fairly.
-- Built the recommendation engine: a customer brief in (budget, platforms, vertical, headcount, and the company's own mission and voice), a ranked shortlist out, matched partly on how closely a creator's language resembled the way the company talks about itself.
-- Built the dashboard the founders used to check every score against what they personally knew about each influencer, and the pipeline that pushed data live only after they signed off.
+- Built the scoring and recommendation engine behind the live platform: I owned the data, scoring and matching, and part of the backend.
+- Designed a cross-platform engagement score that weights each interaction type per platform and corrects for posting frequency, audience size and category.
+- Built brand-fit matching with semantic text embeddings, comparing each campaign's message with influencers' own posts.
+- Turned customer briefs into ranked shortlists. After launch, about 8 in 10 campaigns used the engine's recommendations instead of manual selection.
+- Built the founders' review dashboard and the step that published approved scores to the live site.
 
 ---
 
-## Pinned projects
+## Projects
 
-| Project | Stack | What it does |
-|---------|-------|--------------|
-| [Shielded LGV Routing](https://huggingface.co/spaces/parhamkhoshsolat/shielded-lgv-routing) | PyTorch, Bayes-DQN, CBS, PIBT, WebSocket | Six warehouse vehicles routed by nine coordination methods, classical planners against reinforcement learning, all under a PIBT collision shield that holds collisions at zero so methods compete on throughput alone. The classical planners won. [Live demo](https://huggingface.co/spaces/parhamkhoshsolat/shielded-lgv-routing) |
-| [RL-Restore](https://github.com/parhamkhoshsolat/rl-restore) | PyTorch, DQN+LSTM, Real-ESRGAN, FastAPI, React | Reimplemented a CVPR 2018 paper: a DQN+LSTM agent repairs photos by chaining 12 specialist CNNs. Extended with baselines, the paper's unreleased joint fine-tuning, and a live web app that shows every step. [Live demo](https://huggingface.co/spaces/parhamkhoshsolat/rl-restore) |
-| [Florence-2 VQA](https://github.com/parhamkhoshsolat/florence2-vqa) | PyTorch, HuggingFace Transformers, Streamlit | Full fine-tune of Microsoft Florence-2 (230M params, every parameter trainable) for visual question answering, on 60,000 image-question pairs from VQA v2.0. [Live demo](https://huggingface.co/spaces/parhamkhoshsolat/Florence-2_VQA) |
-| [Retail Geospatial Analytics](https://github.com/parhamkhoshsolat/retail-geospatial-analytics) | GeoPandas, Folium, Python, SQL | Industry analytics challenge with Fater S.p.A. (Procter & Gamble × Angelini Industries). Joined proprietary sales data with public census data at district level, and designed a per-capita metric so districts of different sizes compared fairly. Presented the findings to company leadership; the four-person team was recognised for the project. |
-| [Pest Population Forecasting](https://github.com/parhamkhoshsolat/pest-population-forecasting) | Scikit-learn, XGBoost, LightGBM, Streamlit | Benchmarked six regression and five classification models on noisy multi-source sensor data. Random Forest topped both, catching every outbreak day in the held-out set at 0.92 AUC and roughly 50 percent precision, with the threshold tuned to favour recall. [Live demo](https://huggingface.co/spaces/parhamkhoshsolat/pest-prediction-dashboard) |
-| [Stock Clustering Pipeline](https://github.com/parhamkhoshsolat/stock-clustering-pipeline) | Apache Kafka, PySpark, scikit-learn | Kafka and Zookeeper cluster ingesting six months of daily prices across 55 per-ticker topics, plus a separate PySpark MLlib K-means and PCA stage on a ticker's price series. |
-| [OULAD Time-Series Forecasting](https://github.com/parhamkhoshsolat/time-series-OULAD) | TensorFlow / Keras, Statsmodels, Prophet | Benchmarked SARIMA, ARIMAX, Prophet and a custom 1D CNN on student interaction data. The CNN and Prophet came out closest; only the CNN was scored on a held-out split, so it is not a like-for-like comparison. |
+| Project | What it is | Links |
+|---|---|---|
+| **Shielded LGV Routing** · 2026 | Six warehouse vehicles routed by nine classical and learned methods under one collision shield that keeps collisions at zero. The classical planners won. | [Demo](https://parhamkhoshsolat-shielded-lgv-routing.hf.space) · [Write-up](https://www.parhamkhoshsolat.com/projects/shielded-lgv-routing) |
+| **[RL-Restore](https://github.com/parhamkhoshsolat/rl-restore)** · 2026 | Reimplemented a CVPR 2018 paper: a DQN+LSTM agent repairs photos by chaining 12 small specialist CNNs, extended with the paper's unreleased fine-tuning. | [Demo](https://parhamkhoshsolat-rl-restore.hf.space) · [Write-up](https://www.parhamkhoshsolat.com/projects/rl-restore) |
+| **5G NOC Root-Cause Analysis** · 2026 | Owned root-cause analysis in an 8-person 5G Academy proof of concept: a ranker proposes the faulty element, a rule-based verifier checks it. Private team code. | [Write-up](https://www.parhamkhoshsolat.com/projects/5g-noc-root-cause) |
+| **[Florence-2 VQA](https://github.com/parhamkhoshsolat/florence2-vqa)** · 2025 | Full fine-tune of a 230M-parameter vision-language model on 60,000 image-question pairs, served live. | [Demo](https://parhamkhoshsolat-florence-2-vqa.hf.space) · [Write-up](https://www.parhamkhoshsolat.com/projects/florence2-vqa) |
+| **[Pest Forecasting](https://github.com/parhamkhoshsolat/pest-population-forecasting)** · 2025 | Eight model families on weather and trap data; Random Forest flagged every catch day in the hold-out, at one false alarm per true one. | [Demo](https://parhamkhoshsolat-pest-prediction-dashboard.hf.space) · [Write-up](https://www.parhamkhoshsolat.com/projects/pest-forecasting) |
+| **[Fater Geospatial](https://github.com/parhamkhoshsolat/retail-geospatial-analytics)** · 2024 | Four-person team on a Fater S.p.A. challenge: stores mapped to census districts and compared by store potential per resident. | [Write-up](https://www.parhamkhoshsolat.com/projects/retail-geospatial) |
+| **[Stock Clustering Pipeline](https://github.com/parhamkhoshsolat/stock-clustering-pipeline)** · 2024 | Kafka ingestion of six months of prices into 55 per-ticker topics, plus a separate PySpark K-means stage. | [Write-up](https://www.parhamkhoshsolat.com/projects/stock-clustering) |
+| **[OULAD Time Series](https://github.com/parhamkhoshsolat/time-series-OULAD)** · 2024 | SARIMA, ARIMAX, Prophet and a 1D CNN on daily learning-platform activity; the CNN reached MAE 0.20 on log clicks. | [Write-up](https://www.parhamkhoshsolat.com/projects/oulad-timeseries) |
+| **[TalentSonar](https://github.com/parhamkhoshsolat/TalentSonar)** · 2025 | 24-hour hackathon prototype: Gemini parses a job description and GitHub GraphQL finds matching profiles. Unfinished. | [Write-up](https://www.parhamkhoshsolat.com/projects/talentsonar) |
 
 ---
 
 ## Skills
 
-**Languages:** Python, SQL, JavaScript, Bash
-**ML / Deep Learning:** Recommender systems, text similarity, sentiment analysis, PyTorch, HuggingFace Transformers, Scikit-learn, XGBoost, LightGBM, TensorFlow / Keras, Random Forest, LSTM, GRU, CNN, Reinforcement Learning, Fine-tuning, Transfer Learning
-**Data Engineering:** Apache Kafka, PySpark, ETL, REST APIs, GraphQL, MySQL
-**Visualisation & BI:** Power BI, Plotly, Seaborn, Matplotlib, GeoPandas, Folium, Streamlit
-**MLOps:** Docker, FastAPI, HuggingFace Spaces, Git / GitHub workflows, Colab GPU training
+**Languages:** Python, SQL, TypeScript, Bash
+**ML:** PyTorch, HuggingFace Transformers, scikit-learn, XGBoost, LightGBM, TensorFlow / Keras, reinforcement learning (DQN, PPO, MAPPO), time-series forecasting
+**Data engineering:** Apache Kafka, PySpark, MySQL, REST and GraphQL APIs
+**Shipping:** FastAPI, Streamlit, React, Docker, HuggingFace Spaces
 
 ---
 
 ## Credentials
 
-- **MSc Data Science** at Federico II (in progress, expected Oct 2026) · weighted average 28.67/30 · four exams at 30 e lode
-- **5G Academy** · Federico II with Nokia, TIM, and PagoPA (currently attending)
-- **Apple Foundation Program** · Federico II × Apple Developer Academy (Jan 2025)
-- **BSc Information Technology Engineering** · Amol University (2017)
+- **MSc Data Science** · Federico II · September 2023 to December 2026 · weighted average 28.67/30, four exams at 30 e lode
+- **5G Academy** · Federico II with Nokia, TIM and PagoPA · June to November 2026
+- **Apple Foundation Program** · Federico II × Apple Developer Academy · January 2025
+- **BSc Information Technology Engineering** · Amol University
 
 ---
 
 ## Now
 
-Working on my MSc thesis: research in human-robot interaction and reinforcement learning, extending published work from Federico II.
+My MSc thesis is a browser-based study on how a learning robot can stay readable and trustworthy to the person teaching it; the study is running with participants. Alongside it, I'm doing research on how code LLMs handle hardware-design (Verilog) tasks, with results under review.
 
-Open to Data Analyst, Data Scientist, ML Engineer, or AI Engineer roles starting now. Onsite Naples or remote across the EU.
+Open to Data Scientist, ML Engineer and AI Engineer roles, and to funded PhD positions in reinforcement learning and human-robot interaction. Available now.
 
-📧 parhamkhoshsolat@gmail.com · [Portfolio](https://parhamkhoshsolat.com) · [LinkedIn](https://www.linkedin.com/in/parham-khoshsolat)
+[parhamkhoshsolat.com](https://www.parhamkhoshsolat.com) · [LinkedIn](https://www.linkedin.com/in/parham-khoshsolat) · parhamkhoshsolat@gmail.com
